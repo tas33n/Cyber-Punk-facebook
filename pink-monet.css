@@ -1,0 +1,20 @@
+/************ theme 01 pinky ***************/
+#facebook, .system-fonts--body span {
+    --web-wash: #e2cbec;
+    --nav-bar-background:  #f2d7ff;
+    --notification-badge: #a200f3;
+    --primary-icon: #a200f3; 
+    --fb-wordmark: #a200f3;
+    --comment-background:#be79e1;
+    --primary-text: #a200f3;
+    --secondary-button-background-floating: #f2d7ff;
+    --filter-primary-icon:#a200f3;
+    --card-background: #f2d7ff;
+    --secondary-text: #9167a7;
+    --secondary-button-background: #f1bfe3;
+    --surface-background: #f2d7ff;
+    --primary-button-background:#a200f3;
+}
+.k0kqjr44 {
+    background-color: #f2d7ff;
+}
