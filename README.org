@@ -30,7 +30,7 @@ GitHub's native CSS variables.
 ** Installation
 You have to install [[https://add0n.com/stylus.html][Stylus]] and then click on the install link below.
 
-[[https://raw.githubusercontent.com/tas33n/Cyber-Punk-facebook/main/Cyber-Punk.user.styl][https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat]]
+[[https://raw.githubusercontent.com/Tas33n/Cyber-Punk-facebook/main/Cyber-Punk.user.styl][https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat]]
 
 
 
