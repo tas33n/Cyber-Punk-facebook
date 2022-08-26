@@ -1,88 +1,204 @@
+/* ==UserStyle==
+@name         Facebook Cyber Punk
+@version      20220825.11.55
+@namespace    userstyles.world/user/tas33n
+@description  A cyber Punk inspired theme for facebok web. There still some bugs left, but i will try to fix them asap.. Also any feedback from users are welcom..
+@author       tas33n
+@license      No License
+==/UserStyle== */
 
-/************ theme 02 Cyber Punk ***************/
-
-#facebook, .system-fonts--body span {
-    --web-wash: #100f50;
-    --nav-bar-background:  #191781;
-    --notification-badge: #0906b3;
-    --primary-icon: #0906b3;
-    --fb-wordmark: #0906b3;
-    --comment-background:#100f50;
-    --primary-text: #02013d;
-    --secondary-button-background-floating: #100f50;
-    --filter-primary-icon:#0906b3;
-    --card-background: #100f50;
-    --secondary-text: #14125c;
-    --secondary-button-background: #100f50;
-    --surface-background: #100f50;
-    --primary-button-background:#0906b3;
-}
-.k0kqjr44 {
-    background-color: #100f50;
-}
-
-/* CYBER PUNK */
-
+@-moz-document domain("facebook.com") {
+/* variable property dont tuch */
 html,
 body {
-  --colors-bg--300: #1e181e;
-  --colors-bg--500: #191a1e;
-  --colors-primary--200: #f4908b;
-  --colors-primary--300: #ea6f69;
-  --colors-primary--500: #e8615a;
-  --colors-primary--600: #9c3230;
-  --colors-primary--700: #5e2122;
-  --colors-primary--800: #451717;
-  --colors-primary--900: #3c181a;
-  --colors-secondary--500: #2be4ea;
-  --colors-secondary--900: #295459;
-  --colors-tertiary--500: #fed33f;
-  --colors-on_bg--500: var(--colors-primary--500);
-  --colors-on_tertiary--500: var(--colors-bg--300);
-  --colors-on_primary--500: var(--colors-primary--200);
-  --colors-active--500: #2bfea0;
-  --fonts-primary: "Rajdhani", sans-serif;
-  --fonts-secondary: "VT323", monospace;
-  --ui-glow: 0 0 5px var(--colors-primary--500);
-  --ui-glow-borders--500: 0 0 3px var(--colors-primary--500);
-  --ui-glow-color: currentcolor;
-  --ui-glow-text: -9px -6px 40px var(--ui-glow-color);
-  --ui-glow-text--dimmed: -9px -6px 40px var(--ui-glow-color);
-  --ui-elevation--1: 2px 2px 0 rgba(0, 0, 0, 0.8);
-  --ui-notch-amount: 1rem;
-  --ui-notch-hypotenuse: 22.627416px; /* hypothenuse of --ui-notch-amount */
-  --ui-notch-path: polygon(
-    0 0,
+    --colors-bg--300: #1e181e;
+    --colors-bg--500: #191a1e;
+    --colors-primary--200: #f4908b;
+    --colors-primary--300: #ea6f69;
+    --colors-primary--500: #e8615a;
+    --colors-primary--600: #9c3230;
+    --colors-primary--700: #5e2122;
+    --colors-primary--800: #451717;
+    --colors-primary--900: #3c181a;
+    --colors-secondary--500: #2be4ea;
+    --colors-secondary--900: #295459;
+    --colors-tertiary--500: #fed33f;
+    --colors-on_bg--500: var(--colors-primary--500);
+    --colors-on_tertiary--500: var(--colors-bg--300);
+    --colors-on_primary--500: var(--colors-primary--200);
+    --colors-active--500: #2bfea0;
+    --fonts-primary: "Rajdhani", sans-serif;
+    --fonts-secondary: "VT323", monospace;
+    --ui-glow: 0 0 5px var(--colors-primary--500);
+    --ui-glow-borders--500: 0 0 3px var(--colors-primary--500);
+    --ui-glow-color: currentcolor;
+    --ui-glow-text: -9px -6px 40px var(--ui-glow-color);
+    --ui-glow-text--dimmed: -9px -6px 40px var(--ui-glow-color);
+    --ui-elevation--1: 2px 2px 0 rgba(0, 0, 0, 0.8);
+    --ui-notch-amount: 1rem;
+    --ui-notch-hypotenuse: 22.627416px;
+    /* hypothenuse of --ui-notch-amount */
+    --ui-notch-path: polygon( 0 0,
     100% 0,
     100% calc(100% - var(--ui-notch-amount) + 2px),
     calc(100% - var(--ui-notch-amount) + 2px) 100%,
-    0 100%
-  );
+    0 100%);
 
-  --web-wash: var(--colors-bg--500);
-  background-image: radial-gradient(
-    ellipse at 33% 10%,
+    /*   --web-wash: var(--colors-bg--500); */
+    background-image: radial-gradient( ellipse at 33% 10%,
     #461616 0%,
-    transparent 75%
-  );
-  background-repeat: no-repeat;
-  color: var(--colors-on_bg--500);
-  font-family: var(--fonts-primary);
-  font-size: 100%;
-  line-height: 1.4;
-  margin: 0;
-  min-height: 100vh;
+    transparent 75%);
+    background-repeat: no-repeat;
+    color: var(--colors-on_bg--500);
+    font-family: var(--fonts-primary);
+    font-size: 100%;
+    line-height: 1.4;
+    margin: 0;
+    min-height: 100vh;
 }
 
+/* design starts here */
 .s0hje29t {
-    background-image: radial-gradient(
-        ellipse at 33% 10%,
-        #461616 0%,
-        transparent 75%
-      );
-      background-repeat: no-repeat;
-      color: var(--colors-on_bg--500);
-      font-family: var(--fonts-primary);
-      font-size: 100%;
-      line-height: 1.4;
+    background-image: radial-gradient( ellipse at 33% 10%,
+    #461616 0%,
+    transparent 75%);
+    background-repeat: no-repeat;
+    color: var(--colors-on_bg--500);
+    font-family: var(--fonts-primary);
+    font-size: 100%;
+    line-height: 1.4;
+    /*     background: transparent; */
+}
+/* head  */
+.lq5mtui6 {
+    background-image: radial-gradient( ellipse at 33% 10%,
+    #461616 0%,
+    transparent 75%);
+}
+.kgnml90y {
+    background-color: var(--colors-bg--300);
+    border: 1px solid var(--colors-primary--600);
+    -webkit-clip-path: var(--ui-notch-path);
+    clip-path: var(--ui-notch-path);
+    padding-right: 0.5rem;
+    border-radius: 0;
+    position: relative;
+}
+/* header buttotn icon */
+.a5wdgl2o {
+    background: none;
+    /*     color: var(--colors-primary--500); */
+}
+.kgnml90y:before {
+    background-color: var(--colors-primary--600);
+    bottom: 5px;
+    content: "";
+    display: block;
+    height: 3px;
+    position: absolute;
+    right: -6px;
+    top: auto;
+    transform: rotate(-45deg);
+    width: var(--ui-notch-hypotenuse);
+    z-index: 100;
+}
+.him0ws1g:hover {
+    background-color: var(--colors-bg--300);
+    border-radius: 0;
+}
+.kgnml90y {
+    background: none;
+    border-radius: 0;
+}
+
+/* profile menu settings */
+.om3e55n1 {
+    /*     background: var(--colors-bg--500); */
+}
+.k0kqjr44 {
+    background-color: var(--colors-bg--500);
+}
+/* body post content */
+.oab4agdp {
+    background-color: var(--surface-background);
+    background-color: var(--colors-bg--300);
+    border: 1px solid var(--colors-tertiary--500);
+    border-radius: 3px;
+    color: var(--colors-tertiary--500);
+    padding: 0.75rem;
+    -webkit-clip-path: var(--ui-notch-path);
+    clip-path: var(--ui-notch-path);
+    position: relative;
+}
+.oab4agdp:before {
+    background-color: var(--colors-primary--600);
+    bottom: 5px;
+    content: "";
+    display: block;
+    height: 3px;
+    position: absolute;
+    right: -6px;
+    top: auto;
+    transform: rotate(-45deg);
+    width: var(--ui-notch-hypotenuse);
+    z-index: 100;
+}
+.n3t5jt4f {
+    color: var(--colors-tertiary--500);
+}
+
+div {
+    border-radius: none;
+}
+.mjtxq69p span {
+    color: var(--colors-secondary--500);
+}
+.dbla2kx4 span {
+    color: var(--colors-secondary--500);
+}
+.aesu6q9g .ed17d2qt {
+    background: transparent;
+    /*     background-color: var(--surface-background);
+    background-color: var(--colors-bg--300); */
+    border: 1px solid var(--colors-tertiary--500);
+    border-radius: 3px;
+    color: var(--colors-tertiary--500);
+    padding: 0.75rem;
+    -webkit-clip-path: var(--ui-notch-path);
+    clip-path: var(--ui-notch-path);
+}
+.aesu6q9g .ed17d2qt:before {
+    background-color: var(--colors-primary--600);
+    bottom: 5px;
+    content: "";
+    display: block;
+    height: 3px;
+    position: absolute;
+    right: -6px;
+    top: auto;
+    transform: rotate(-45deg);
+    width: var(--ui-notch-hypotenuse);
+    z-index: 100;
+}
+
+
+
+#facebook,
+.system-fonts--body span {
+    --web-wash: var(--colors-bg--500);
+    /*     --nav-bar-background: transparent; */
+    --notification-badge: var(--colors-primary--500);
+    --primary-icon: var(--colors-primary--500);
+    --fb-wordmark: var(--colors-primary--500);
+    /*     --comment-background:#c79ddd; */
+    --primary-text: var(--colors-primary--500);
+    /*     --secondary-button-background-floating: #f2d7ff; */
+    --filter-primary-icon: #a200f3;
+    /*     --card-background: #f2d7ff; */
+    --secondary-text: #9167a7;
+    /*     --secondary-button-background: var( --colors-primary--300); */
+    /*     --surface-background: #f2d7ff; */
+    /*     --primary-button-background:#a200f3; */
+    /*     --hover-overlay: var(--colors-primary--200); */
+}
 }
