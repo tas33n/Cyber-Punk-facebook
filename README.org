@@ -32,6 +32,27 @@ You have to install [[https://add0n.com/stylus.html][Stylus]] and then click on 
 
 [[https://raw.githubusercontent.com/Tas33n/Cyber-Punk-facebook/main/Cyber-Punk.user.styl][https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat]]
 
+** Bugs & Fixes
+Found a bug when clicking menu button from left side, Menu Container gets hidden. It caused by Clip-path property which was used to cut div/box corner.
+
+You can fix this very easily.. Just follow below steps..
+
+Edit the css theme, 
+  Goto class .oab4agdp in line 123. inside class chek this two property 
+  
+  130| -webkit-clip-path: var(--ui-notch-path);
+  
+  131| clip-path: var(--ui-notch-path); */
+  
+  Remove this lines..
+  
+  Next
+
+144| width: var(--ui-notch-hypotenuse);
+
+remove this line too.. 
+
+Now the clip path (corner cutout) for post box and few other box's will be disabled.. but it will fix the issue.. 
 
 
 ** Contributing
