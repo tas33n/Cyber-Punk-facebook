@@ -21,8 +21,7 @@ A cyber Punk inspired theme for facebook web.
 #+HTML: </div>
 
 ** About
-Experimental userstyle for Facebook that uses my procedural color generator and
-GitHub's native CSS variables.
+Experimental userstyle for Facebook.
 
 
 *Update 25.08.2022*: This is my first build so it may have bugs in it but bare with me.
